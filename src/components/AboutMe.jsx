@@ -29,7 +29,10 @@ function AboutMe() {
 
       className='w-full lg:w-1/2'>
       <div className='flex justify-center text-center lg:justify-start'>
-        <p className='my-2 max-w-xl py-6'>I am a goal-oriented Entry Level Frontend Developer with knowledge of HTML, CSS, JavaScript, React, Redux Toolkit, and React-Router-DOM seeking to use technical proficiency and creativity to develop engaging user experiences and advance in a professional career. Looking to leverage effective debugging, code optimization and project collaboration capabilities to produce applications that exceed user expectations.</p>
+        <p className='my-2 max-w-xl py-6'>
+        I am a dedicated full-stack MERN developer with a strong foundation in MongoDB, Express.js, React.js, and Node.js. Passionate about crafting seamless and scalable web applications, I leverage my expertise in both front-end and back-end development to build dynamic, user-centric solutions. 
+        My hands-on experience with the MERN stack allows me to tackle complex challenges, optimize performance, and deliver high-quality applications that drive user engagement and business success. 
+        </p>
       </div>
     </motion.div>
       </div>

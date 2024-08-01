@@ -36,7 +36,7 @@ function Hero() {
               animate="visible"
               className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500
               bg-clip-text text-4xl tracking-tight text-transparent mt-14'>
-                Frontend Web Developer
+                Full Stack Web Developer
               </motion.span>
 
               <motion.p
@@ -44,9 +44,8 @@ function Hero() {
               initial="hidden"
               animate="visible"
               className='max-w-xl py-6 font-light text-justify tracking-tighter'>
-              I am a skilled frontend developer with a strong proficiency in building responsive and user-friendly web applications. With a keen eye for design and a solid understanding of web development technologies,
-  I excel in creating seamless and intuitive user experiences.
-  My dedication to delivering high-quality web applications, combined with technical expertise and creative approach, make me a standout frontend developer in the industry.
+                  I am a proficient full-stack developer specializing in the MERN stack (MongoDB, Express.js, React.js, and Node.js). 
+                  With a strong focus on creating dynamic and responsive web applications, I excel in building scalable solutions that deliver exceptional user experiences. My expertise in both front-end and back-end technologies allows me to seamlessly integrate complex functionalities and optimize performance. Driven by a passion for innovation and problem-solving, I am committed to delivering high-quality applications that meet the evolving needs of users and businesses alike.
               </motion.p>
           </div>
         </div>
