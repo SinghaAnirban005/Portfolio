@@ -4,6 +4,8 @@ import js from '../Others/js.png'
 import nodejs from "../Others/nodejs.webp"
 import redux from "../Others/redux.png"
 import css from "../Others/css.webp"
+import mongodb from "../Others/mongo.png"
+import express from "../Others/express.png"
 import { motion } from 'framer-motion'
 
 const iconVariants = (duration) => (
@@ -80,6 +82,22 @@ function Technologies() {
       animate="animate"
       className='rounded-2xl border-4 border-neutral-800 p-4'>
         <img className='h-12 w-12' src={css} alt='tailwind' />
+      </motion.div>
+
+      <motion.div 
+      variants={iconVariants(4)}
+      initial="initial"
+      animate="animate"
+      className='rounded-2xl border-4 border-neutral-800 p-4'>
+        <img className='h-12 w-12' src={mongodb} alt='mongodb' />
+      </motion.div>
+
+      <motion.div 
+      variants={iconVariants(2.5)}
+      initial="initial"
+      animate="animate"
+      className='rounded-2xl border-4 border-neutral-800 p-4'>
+        <img className='h-12 w-12' src={express} alt='express' />
       </motion.div>
 
       </motion.div>
