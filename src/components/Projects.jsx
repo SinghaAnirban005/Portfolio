@@ -3,6 +3,7 @@ import blog from "../Others/blog.webp"
 import lf from "../Others/lf.PNG"
 import pg from "../Others/pg.png"
 import musix from "../Others/musix.png"
+import study from "../Others/study.png"
 import good from "../Others/good.png"
 import { motion } from 'framer-motion'
 
@@ -10,30 +11,21 @@ function Projects() {
 
   const Projects = [
     {
+      title: "Study Sphere",
+      github: "https://github.com/SinghaAnirban005/StudySphere",
+      vercel: "https://study-sphere-theta.vercel.app",
+      image: study,
+      description: "StudySphere is a collaborative platform designed for students to create and join study groups. With features like group chat, resource sharing, and a digital whiteboard that can be exported as a PDF, StudySphere aims to enhance the learning experience and promote collaborative studying.",
+      technologies: ["TAILWIND CSS", "JS", "REACT JS", "NODE JS", "SOCKET IO", "EXPRESS JS", "MONGO DB"],
+    },
+
+    {
       title: "My Digital Diary",
       github: "https://github.com/SinghaAnirban005/My-Digital-Diary",
       vercel: "https://my-digital-diary.vercel.app",
       image: blog,
       description: "The Digital Diary is a modern, intuitive, and secure web application designed to replace traditional paper diaries with a digital solution. It allows users to record, manage, and revisit their daily thoughts, experiences, and memories seamlessly from any device.",
       technologies: ["TAILWIND CSS", "JS", "REACT JS", "APPWRITE", "REDUX-TOOLKIT"],
-    },
-    
-    {
-      title: "Spend-Ex",
-      github: "https://github.com/SinghaAnirban005/Spend-ex",
-      vercel: "https://spend-ex-2.onrender.com",
-      image: "https://igamemom.com/wp-content/uploads/2014/10/Expense-Tracker-2.0-logo.png",
-      description: "Spend-Ex aims to empower users to take control of their finances by providing a user-friendly platform to manage their money effectively. By leveraging the MERN stack, the app delivers a fast and interactive experience that helps users make better financial decisions.",
-      technologies: ["JS","TAILWIND CSS","NODE JS", "REACT JS", "REDUX TOOLKIT", "EXPRESS JS", "MONGO DB"],
-    },
-
-    {
-      title: "Good-Eggs UI Clone",
-      github: "https://github.com/SinghaAnirban005/GoodEggs-UI-Clone",
-      vercel: "https://grocery-store-ui-clone.vercel.app",
-      image: good,
-      description: "An user interface clone of the Good Eggs website, designed to replicate the look and feel of the original site. Built with React.js and Tailwind CSS, this clone demonstrates my skills in front-end development and UI/UX design by accurately reproducing a modern e-commerce platform's design elements and functionality",
-      technologies: ["JS", "REACT JS", "TAILWIND CSS"]
     },
 
     {
